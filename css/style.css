@@ -1,0 +1,900 @@
+.navbar-default {
+	background-color: rgb(0,0,0);
+	/*noir*/
+	color: rgb(255,255,255);
+	/*blanc*/
+	background-size: 100%;
+	height: 5%;
+}
+
+
+.fixNavigation{
+ 	z-index: 9999;
+ 	position: fixed;
+ 	top: 0; /* Mise en forme */
+ 	width: 1500px; /*La barre fait la largeur site*/
+ 	/*agit si on a défilé de plus de 150px du haut vers le bas*/
+}
+
+
+.container-fluid {
+	width: 100%;
+	height: 10%;
+}
+
+
+.navbar-nav {
+	display: inline;
+	font-size: large;
+	margin-left: 60%;
+	width: 100%;
+	position: fixed;
+}
+/*barre menu*/
+
+
+.navbar-nav .accueil {
+	margin-left: 7%;
+}
+
+
+.navbar-nav .portfolio {
+	margin-left: 7%;
+}
+
+
+.navbar-nav .competences{
+	margin-left: 7%;
+}
+
+
+.navbar-nav .contact {
+	margin-left: 7%;
+}
+
+
+.active {
+	color: rgb(232,0,124) !important;
+}
+/*couleur sur élément cliqué pour dire sur quelle page on est*/
+
+
+body {
+	background-color: black;
+	height: 100%;
+}
+
+h1 {
+	font-weight: lighter;
+	color: rgb(232,0,124);
+	font-family: 'Bookman Old Style', serif;
+	margin-left: 25%;
+}
+
+
+.footer {
+	background-color: rgb(38,37,38);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+
+.footer p {
+	color: rgb(255,255,255);
+/*	display: inline;*/
+}
+
+
+.fa-codiepie {
+	margin-right: 1%;
+}
+/*c du footer*/
+
+
+/*début css accueil*/
+/*.logo {
+	width: 300px;
+	height: 150px;
+	margin-left: 40%;
+}*/
+
+
+.item {
+	margin-top: 10px;
+	max-height: 700px;
+}
+/*photos du caroussel*/
+
+
+.photo2 {
+	overflow:hidden;
+    -webkit-border-radius:100px;
+    height: 300px;
+    width:180px;
+    margin-top: 10%;
+    margin-left: 55%;
+}
+/*photo de moi page accueil*/
+
+
+.txt-presentation {
+	color: rgb(255,255,255);
+	/*blanc*/
+	margin-left: 25%;
+	margin-right: 5%;
+}
+/*fin css accueil*/
+
+
+/*début css portfolio*/
+.enCours, .projet {
+	margin-top: 2%;
+	margin-bottom: 5%;
+	font-weight: lighter;
+	color: rgb(232,0,124);
+	font-family: 'Bookman Old Style', serif;
+	margin-left: 43%;
+}
+
+.container {
+	max-width: 1150px;
+	height: calc(100vh)-76px;
+}
+
+
+.row {
+	height: 90%;
+}
+
+.container-element {
+	position: relative;
+	width: 50%;
+	height: 50%;
+	margin-bottom: 5%;
+}
+
+
+.element-absolute {
+	position: absolute;
+	top: 10%;
+	margin: auto;
+	font-weight: bold;
+	color: rgb(232,0,124) !important;
+}
+
+.lienPhoto {
+	background-color: rgba(255,255,255,0.5);
+	position: absolute;
+	font-weight: bold;
+	color: rgb(0,0,0) !important;
+}
+
+.text {
+	background-color: rgba(255,255,255,0.5);
+	display: none;
+	margin-top: 3%;
+	color: rgb(0,0,0);
+	margin-left: 10%;
+}
+
+.text2 {
+	background-color: rgba(255,255,255,0.5);
+	display: none;
+	margin-left: 25%;
+}
+
+.text3 {
+	background-color: rgba(255,255,255,0.5);
+	display: none;
+}
+
+.container-element:hover .text {
+	display: block;
+}
+
+.container-element:hover .text2 {
+	display: block;
+}
+
+.container-element:hover .text3 {
+	display: block;
+}
+
+
+.myCave {
+	width: 100%;
+	height: 100%;
+}
+
+
+.ecoCity {
+	width: 100%;
+	height: 100%;
+}
+
+.taxiLerm {
+	margin-left: 23%;
+	width: 75%;
+	height: 100%;
+}
+
+.fauteuil{
+	/*margin-left: 8%;*/
+	width: 75%;
+	height: 100%;
+}
+/*fin css portfolio*/
+
+/*css compétences*/
+.html {
+	width: 100%;
+	height: 100%;
+}
+
+.php, .presta {
+	margin-left: 30%;
+	margin-top: 15%;
+	width: 50%;
+	height: 40%;
+}
+
+.jquery {
+ 	margin-top: 0%;
+ 	margin-left: 10%;
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+.bootstrap {
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+.word {
+	margin-top: 2%;
+	margin-left: 20%;
+	width: 85%;
+	height: 100%;
+} 
+
+.ouam {
+	margin-left: 45%;
+	margin-bottom: 5%;
+	color: rgb(232,0,124);
+	font-family: 'Bookman Old Style', serif;
+}
+
+.presentation {
+	margin-top: 0%;
+	font-style: large;
+	font-family: 'Bookman Old Style', serif;
+}
+
+
+.en-tete {
+	margin-top: 0%;
+	position: relative;
+	background-color: rgb(38,37,38);
+	/*gris foncé*/
+}
+
+.comp {
+	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-left: 35%;
+	font-family: 'Bookman Old Style', serif;
+	font-size: x-large;
+	color: rgb(255,255,255);
+}
+
+.comp2 {
+	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-left: 40%;
+	font-family: 'Bookman Old Style', serif;
+	font-size: x-large;
+	color: rgb(255,255,255);
+}
+
+.photoshop {
+	margin-left: 5%;
+	margin-top: 28%;
+	width: 58%;
+	height: 58%;
+}
+
+.illus {
+	margin-top: 25%;
+	margin-left: 35%;
+	width: 65%;
+	height: 65%;
+}
+
+.exp {
+	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-left: 45%;
+	font-family: 'Bookman Old Style', serif;
+	font-size: x-large;
+	color: rgb(255,255,255);
+} /*titres*/
+
+.container-element {
+	margin-top: 5%;
+}
+
+.txt {
+	color: rgb(255,255,255);
+	margin-bottom: 3%;
+}
+
+.trait, .trait2 {
+	width: 100%;
+	height: 10px;
+	size: 4;
+	margin-top: 2%;
+	background-color: rgb(38,37,38);
+	/*gris foncé*/
+}
+
+
+.stages {
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: 'Bookman Old Style', serif;
+	color: rgb(255,255,255);
+}
+
+
+.stage1 {
+	margin-top: 5%;
+	color: rgb(255,255,255);
+}
+
+
+.stage2 {
+	margin-top: 10%;
+	color: rgb(255,255,255);
+}
+
+
+.contact {
+	margin-top: 2%;
+	list-style-type: none;
+	background-color: black;
+	font-family: 'Bookman Old Style', serif;
+	font-size: medium;
+	color: rgb(255,255,255);
+}
+/*fin css compétences*/
+
+
+
+/*début css page contact*/
+.txtcont {
+	color: rgb(255,255,255);
+	margin-top: 5%;
+	font-family: 'Bookman Old Style', serif;
+	font-size: medium;
+}
+
+.moi {
+	width: 50%;
+	height: 50%;
+	margin-left: 50%;
+	margin-top: 3%;
+}
+
+.mail, .tel, .fb, .adr {
+	color: rgb(255,255,255)!important;
+}
+
+.coordonnees {
+	margin-top: 15%;
+	margin-left: 10%;
+	font-family: 'Bookman Old Style', serif;
+	font-size: x-large;
+	color: rgb(232,0,124);
+}
+
+
+/*fin css page contact*/
+
+/*début responsive tant que la taille de l'écran est comprise entre 768 et 991px*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	/*toutes les pages*/
+	.navbar-nav {
+		position: relative;
+	}
+	/*fin barre nav*/
+
+	/*page index*/
+	.developpeuse {
+		margin-left: 15%;
+	}
+
+	.txt-presentation {
+		margin-left: 0%;
+		margin-right: 45%;
+	}
+
+	.photo2 {
+		margin-left: 30%;
+		margin-top: 5%;
+	}
+	/*fin page index*/
+
+	/*portfolio*/
+	.projet, .enCours {
+		margin-left: 30%;
+	}
+
+	.taxiLerm {
+		margin-left: 0%;
+	}
+
+	.text2 {
+		margin-left: 0%;
+	}
+	/*fin portfolio*/
+
+	/*page compétences*/
+	.ouam {
+		margin-left: 45%;
+	}
+
+	.comp {
+		margin-bottom: 2%;
+		margin-left: 30%;
+	}
+
+	.html {
+		margin-left: 5%;
+		margin-top: 0%;
+		width: 300px;
+		height: 150px;
+	}
+
+	.php {
+		height: 100px;
+		width: 150px;
+		margin-top: -120px;
+		margin-left: 425px;
+	}
+
+	.jquery {
+		height: 150px;
+		width: 300px;
+		margin-left: 600px;
+		margin-top: -180px;
+	}
+
+	.bootstrap {
+		height: 200px;
+		width: 250px;
+		margin-left: 8%;	
+	}
+
+	.presta {
+		height: 120px;
+		width: 150px;
+		margin-top: -240px;
+		margin-left: 425px;
+	}
+
+	.word {
+		height: 200px;
+		width: 250px;
+		margin-top: -290px;
+		margin-left: 630px;
+	}
+
+	.comp2 {
+		margin-top: 5%;
+		margin-left: 38%;
+	}
+
+	.illus {
+		width: 250px;
+		height: 200px;
+		margin-top: 0px;
+		margin-left: 15%;
+	}
+
+	.photoshop {
+		width: 250px;
+		height: 200px;
+		margin-top: -220px;
+		margin-left: 45%;
+	}
+
+	.trait {
+		margin-top: -100px;
+	}
+
+	.trait2 {
+		margin-top: -220px;
+	}
+
+	.stages {
+		margin-left: 25%;
+	}
+	/*fin compétences*/
+
+	/*contact*/
+	.txtcont {
+		margin-left: 0%;
+		margin-right: 30%;
+	}
+
+	.moi {
+		width: 25%;
+		height: 25%;
+	}
+
+	.trait3 {
+		margin-top: 30%;
+	}
+	/*fin contact*/
+
+	footer {
+		margin-top: 20%;
+	}
+}
+
+@media screen and (min-width: 615px) and (max-width: 768px) {
+	/*toutes les pages*/
+	.navbar-nav {
+		position: relative;
+	}
+
+	h1 {
+		margin-left: 2%;
+	}
+	/*fin toutes les pages*/
+
+	/*page index*/
+	.developpeuse {
+		margin-left: 5%;
+	}
+
+	.txt-presentation {
+		margin-left: 0%;
+		margin-right: 45%;
+	}
+
+	.photo2 {
+		margin-left: 30%;
+		margin-top: 5%;
+	}
+	/*fin page index*/
+
+	/*page portfolio*/
+	.projet {
+		margin-left: 30%;
+	}
+
+	.enCours {
+		margin-left: 30%;
+		margin-top: 15%;
+	}
+
+	.taxiLerm {
+		margin-left: 10%;
+	}
+
+	.fauteuil {
+		margin-left: 10%;
+	}
+
+	.text2, .text3 {
+		margin-left: 10.5%;
+	}
+	/*fin portfolio*/
+
+	/*page compétences*/
+	.comp {
+		margin-left: 18%;
+	}
+
+	.html {
+		margin-left: 5%;
+		margin-top: 0%;
+		width: 300px;
+		height: 150px;
+	}
+
+	.php {
+		height: 100px;
+		width: 150px;
+		margin-top: -135px;
+		margin-left: 425px;
+	}
+
+	.jquery {
+		height: 150px;
+		width: 300px;
+		margin-left: 5%;
+		margin-top: -18px;
+	}
+
+	.bootstrap {
+		height: 200px;
+		width: 250px;
+		margin-left: 8%;	
+	}
+
+	.presta {
+		height: 120px;
+		width: 150px;
+		margin-top: -200px;
+		margin-left: 425px;
+	}
+
+	.word {
+		height: 200px;
+		width: 250px;
+		margin-top: -560px;
+		margin-left: 380px;
+	}
+
+	.comp2 {
+		margin-top: 5%;
+		margin-left: 30%;
+	}
+
+	.illus {
+		width: 250px;
+		height: 200px;
+		margin-top: 0px;
+		margin-left: 9%;
+	}
+
+	.photoshop {
+		width: 250px;
+		height: 200px;
+		margin-top: -220px;
+		margin-left: 32%;
+	}
+
+	.trait {
+		margin-top: -40px;
+	}
+
+	.trait2 {
+		margin-top: -220px;
+	}
+
+	.exp {
+		margin-left: 40%;
+	}
+
+	.stages {
+		margin-left: 25%;
+	}
+	/*fin compétences*/
+
+	/*page contact*/
+	.txtcont {
+		margin-left: 0%;
+		margin-right: 50%;
+	}
+
+	.moi {
+		width: 25%;
+		height: 25%;
+		margin-left: 0%;
+		margin-bottom: 2%;
+	}
+
+	.trait3 {
+		margin-top: 55%;
+	}
+
+	.coordonnees {
+		margin-left: 8%;
+	}
+	/*fin contact*/
+
+	footer {
+		margin-top: 20%;
+	}
+}
+
+/*début responsive tant que la taille de l'écran est comprise entre 320 et 614px*/
+@media screen and (min-width: 320px) and (max-width: 614px) {
+	
+	/*toutes les pages*/
+	.navbar-nav {
+		position: relative;
+	}
+
+	.developpeuse {
+		margin-left: -5%;
+	}
+	/*fin toutes les pages*/
+
+	/*index*/
+	.txt-presentation {
+		margin-left: -5%;
+		margin-right: 60%;
+	}
+
+
+	.photo2 {
+		margin-left: 10%;
+	}
+
+
+	.logo {
+		margin-left: 10%;
+	}
+
+
+	.item {
+		margin-top: 10px;
+		max-height: 200px;
+	}
+	/*photos caroussel*/
+	/*fin page accueil*/
+
+
+	.container {
+		margin-left: 8%;
+		height: 650px;
+		width: 614px;
+	}
+	/*page portfolio, competences, index*/
+
+	/*portfolio*/
+	.projet {
+		margin-left: 30%;
+		margin-bottom: 2%;
+	}
+
+	.myCave, .ecoCity {
+		margin-left: -8%;
+		height: 90%;
+		width: 110%;
+	}
+
+	.text {
+		margin-left: -8%;
+	}
+
+	.enCours {
+		margin-left: 30%;
+		margin-bottom: 2%;
+		margin-top: 25%;
+	}
+
+	.text2 {
+		margin-left: -8%;
+	}
+
+	.text3 {
+		margin-left: -8%;
+	}
+
+	.taxiLerm, .fauteuil {
+		margin-left: -8%;
+		width: 105%;
+		height: 100%;
+	}
+	/*fin portfolio*/
+
+	/*competences*/
+	.ouam {
+		margin-left: 25%;
+	}
+
+	.comp {
+		margin-left: 20%;
+	}
+
+	.html {
+		margin-top: 2%;
+		height: 150px;
+		width: 300px;
+		margin-left: -4%;
+		margin-bottom: 1%;
+	}
+
+	.php {
+		height: 100px;
+		width: 150px;
+		margin-left: 5%;
+		margin-bottom: 1%;
+		margin-top: 0%;
+	}
+
+	.jquery {
+		height: 150px;
+		width: 300px;
+		margin-left: -4%;
+		margin-bottom: 1%;
+	}
+
+	.bootstrap {
+		height: 200px;
+		width: 250px;
+		margin-left: 0%;
+		margin-bottom: 1%;
+	}
+
+	.presta {
+		height: 120px;
+		width: 150px;
+		margin-left: 5%;
+		margin-bottom: 1%;
+		margin-top: 0%;
+	}
+
+	.word {
+		height: 200px;
+		width: 250px;
+		margin-left: 0%;
+		margin-bottom: 10%;
+	}
+
+	.trait {
+		margin-top: 150%;
+	}
+
+	.comp2 {
+		margin-left: 10%;
+	}
+
+	.illus {
+		width: 250px;
+		height: 200px;
+		margin-left: 0%;
+		margin-top: 1%;
+	}
+
+	.photoshop {
+		width: 250px;
+		height: 200px;
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+
+	.trait2 {
+		margin-top: -20%;
+	}
+
+	.exp {
+		margin-left: 33%;
+	}
+	/*page compétences*/
+
+	/*page contact*/
+	.txtcont {
+		margin-left: -5%;
+		margin-right: 68%;
+	}
+
+	.moi {
+		width: 25%;
+		height: 25%;
+		margin-left: 0%;
+	}
+
+	.trait3 {
+		margin-top: 45%;
+	}
+
+	.coordonnees {
+		margin-left: 8%;
+	}
+	/*fin contact*/
+
+	footer {
+		margin-top: 20%;
+	}
+	
+}
+/*fin responsive*/
